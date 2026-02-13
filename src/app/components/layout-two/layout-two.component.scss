@@ -1,0 +1,71 @@
+.sidenav-container {
+  margin: 0;
+  .app-sidenav {
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 0;
+    a {
+      border-radius: 0;
+    }
+    .brandname {
+      font-size: 1.2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--mat-sys-primary);
+      width: 100%;
+      padding: 12px 0 15px;
+      cursor: pointer;
+      mat-icon {
+        font-size: 1em;
+        width: auto;
+        height: auto;
+        border: 3px solid var(--mat-sys-primary);
+        border-radius: 5px;
+      }
+      span {
+        font-weight: 500;
+        margin-left: 6px;
+        align-items: center;
+        justify-self: center;
+        line-height: 17px;
+      }
+    }
+    .active-button {
+      background: var(--mat-sys-primary-container);
+      color: var(--mat-sys-on-primary-container);
+    }
+  }
+  .app-sidenav-content {
+    padding: 12px 8px;
+    // margin: 20px;
+    // display: flex;
+    // height: 100%;
+    // align-items: center;
+    // justify-content: center;
+    // background-color: #ffffff;
+  }
+}
+
+.mat-toolbar.top-toolbar {
+  color: var(--mat-sys-primary);
+  background: var(--mat-sys-primary-container);
+  .menu-spacer {
+    flex: 1 1 auto;
+  }
+  a,
+  button,
+  .mat-icon {
+    color: var(--mat-sys-on-primary-container);
+  }
+  a {
+    text-decoration: none;
+  }
+  .menu-icon {
+    margin-right: 8px;
+  }
+}
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  height: 43px;
+}
