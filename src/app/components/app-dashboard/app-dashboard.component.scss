@@ -1,0 +1,17 @@
+.app-dashboard {
+  padding: 24px;
+  height: 100%;
+  background-image: radial-gradient(#eeeeee 1px, transparent 1px);
+  background-color: #ffffff;
+  background-size: 18px 18px;
+  .list-item {
+    span {
+    font-size: 14px;
+    margin-left: 6px;
+  }
+  i {
+    font-size: 10px;
+    color: #555555;
+  }
+  }
+}

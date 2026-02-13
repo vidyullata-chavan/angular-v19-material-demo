@@ -1,0 +1,13 @@
+<div class="demo-container">
+  <button
+    mat-fab extended=""
+    [matMenuTriggerFor]="dropdown"
+    aria-label="Example icon button with a menu icon"
+  >
+    <span class="button-label">Dropdown Menu</span>
+  </button>
+  <mat-menu #dropdown>
+    <button mat-menu-item>Option 1</button>
+    <button mat-menu-item>Option 2</button>
+  </mat-menu>
+</div>
