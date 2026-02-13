@@ -1,0 +1,22 @@
+{
+  "ruleList": [
+    {
+      "id": 1,
+      "name": "No unused variables",
+      "description": "Disallow declaration of variables that are not used in the code.",
+      "type": "A"
+    },
+    {
+      "id": 2,
+      "name": "Consistent indentation",
+      "description": "Enforce consistent indentation throughout the codebase.",
+      "type": "B"
+    },
+    {
+      "id": 3,
+      "name": "No console logs",
+      "description": "Disallow the use of console.log statements in the code.",
+      "type": "C"
+    }
+  ]
+}

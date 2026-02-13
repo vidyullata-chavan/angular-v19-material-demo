@@ -1,0 +1,20 @@
+<section class="app-dashboard">
+  <p-organization-chart [value]="data" [collapsible]="false">
+    <ng-template let-node pTemplate="default">
+      <div>
+        <div class="font-medium text-md">{{ node.label }}</div>
+        <ng-container *ngIf="node.data">
+          <mat-list class="text-left">
+            @for (item of node.data; track item) {
+            <mat-list-item class="list-item">
+                <!-- <mat-icon matListItemIcon class="text-md">folder</mat-icon>  -->
+                <i class="pi pi-circle-on"></i>
+                <span>{{ item }}</span>
+            </mat-list-item>
+            }
+          </mat-list>
+        </ng-container>
+      </div>
+    </ng-template>
+  </p-organization-chart>
+</section>
